@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.bg-1 {
+    background: #313A89;
+}
+
+.bg-2 {
+    background: #005677;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header {
+    text-align: center;
+}
+
+.title {
+    background: #C4C4C4;
+    color: #005677;
+}
+
+h1.title{
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}

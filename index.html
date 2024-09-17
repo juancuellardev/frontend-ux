@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #e3eef8;
+        }
+
+        h1.title {
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .card {
+            border-radius: 20px;
+            border: 2px solid transparent;
+        }
+
+        .card-container{
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .card:hover {
+            border-color: #c6e1fc;
+            background-color: #fff;
+        }
+
+        .card h2 {
+            margin: 0;
+        }
+
+        .card p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Desafios</h1>
+        <section class="cards">
+            <article class="card">
+                <a href="./01" class="card-container">
+                    <h2 class="numeral">01</h2>
+                    <p>
+                        El clásico Lemon Pie
+                    </p>
+                </a>
+            </article>
+            <article class="card">
+                <a href="./02" class="card-container">
+                    <h2 class="numeral">02</h2>
+                    <p>
+                        CURRICULUM VITAE DE BRUCE WAYNE
+                    </p>
+                </a>
+            </article>
+            <article class="card">
+                <a href="./03" class="card-container">
+                    <h2 class="numeral">03</h2>
+                    <p>
+                        Duolingo Duplicado
+                    </p>
+                </a>
+            </article>
+        </section>
+    </header>
+</body>
+
+</html>

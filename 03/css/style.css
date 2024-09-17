@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Inter, sans-serif;
+    border-top: solid #A664FF 18px;
+    padding: 65px 201px 214px ;
+}
+
+.title {
+    font-family: Lato, sans-serif;
+    font-size: 28.85px;
+    color: #191919;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.title .icon {
+    width: 57.87px;
+}
+
+img.banner{
+    width: 100%;
+    margin-top: 65px;
+}
+
+section article h1{
+    font-size: 57.4px;
+    color: #020617;
+    margin: 53.5px 0 0 0;
+}
+
+section article p {
+    /* font-size: 49.2px; */
+    color: #64748B;
+    margin: 40px 0 0 0;
+    font-size: 49.2px;
+    line-height: 61.5px;
+    letter-spacing: -0.20499999821186066px;
+    text-align: left;
+}
