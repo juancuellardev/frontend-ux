@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #96BB7C;
+    --primary-color-2: #85a36f;
+    --secondary-text-color: #737373;
+    --faded-secondary-color-1: #DDF4FF;
+    --faded-secondary-color-2: #FFF2F3;
+    --text-color: #252B42;
+    --danger-color: #E74040;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    font-size: 58px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+header nav {
+    padding: 15px 160px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+h1.logo{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+header nav .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-text-color);
+}
+
+.btn {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all .15s ease-out;
+}
+
+.btn:hover {
+    border-color: var(--primary-color);
+    /* box-shadow: 0px 2px 3px rgba(185, 185, 185, 0.623); */
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-color-2);
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+.container {
+    padding: 0 195px;
+}
+
+.container-fluid {
+    width: 100%;
+    display: flex;
+}
+
+.section-hero {
+    background-color: var(--faded-secondary-color-1);
+    padding: 148px 132px;
+    background-image: url("../img/hero-cover.png");
+    background-position: right bottom;
+    background-size: 682px;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    max-width: 573px;
+}
+
+.hero-content h1 {
+    margin-bottom: 30px;
+}
+.hero-content h4 {
+    margin-bottom: 30px;
+}
+.hero-content h5 {
+    margin-bottom: 30px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.section-metrics{
+    padding: 80px 0;
+}
+
+.metrics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.metric-card{
+    padding: 5px 20px;
+}
+
+.section-courses{
+    background-color: var(--faded-secondary-color-2);
+    padding: 160px 0;
+}
+
+.section-courses h2 {
+    margin-bottom: 80px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card {
+    padding: 35px;
+    background-color: #fff;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+.card .icon {
+    width: 72px;
+    height: 72px;
+    background-color: var(--faded-secondary-color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card .separator {
+    width: 50px;
+    height: 2px;
+    background-color: var(--danger-color);
+}
+
+footer {
+    padding: 25px 0;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 112px;
+}
+
+.social-links a {
+ display: flex;
+ align-items: center;
+ padding: 5px;
+}
+
+.social-links a:hover{
+    border-bottom: 2px solid var(--primary-color);
+}
