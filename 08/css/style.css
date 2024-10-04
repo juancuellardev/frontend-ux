@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+body {
+    background: #D9D9D9;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 90px 98px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.input-text{
+    padding: 16px;    
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.input-text:focus{
+    outline: 2px solid #7A5CFA;
+    border-color: transparent;
+}
+
+.input-text:invalid{
+    outline: 2px solid #EB5757;
+    border-color: transparent;
+    background: url("../img/error-icon.svg") no-repeat 95% 50%;
+}
+
+.radio-groups, .checkbox-groups{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.radio-group label::before, .radio-group label::after {
+    border-radius: 50%;
+}
+
+.radio-group input:checked ~ label::after {
+    background-color: #7A5CFA;
+}
+
+.radio-group, .checkbox-group{
+    /* display: flex; */
+    /* gap: 16px; */
+    position: relative;
+    display: block;
+    padding-left: 1.5rem;
+
+    input {
+        /* height: 24px; */
+        /* width: 24px; */
+        /* background-color: white; */
+        /* border: 1px solid #7A5CFA; */
+        position: absolute;
+        left: 0;
+        z-index: -1;
+        width: 1rem;
+        height: 1.25rem;
+        opacity: 0;
+    }
+
+    label {
+        position: relative;
+        margin-bottom: 0;
+        display: flex;
+        padding-left: 16px;
+    }
+
+    label::before {
+        position: absolute;
+        top: .05rem;
+        left: -1.5rem;
+        display: block;
+        height: 24px;
+        width: 24px;
+        content: "";
+        border: 1px solid #CCC;
+    }
+    label::after {
+        position: absolute;
+        top: .5rem;
+        left: -1.05em;
+        display: block;
+        width: 12px;
+        height: 12px;
+        content: "";
+    }
+
+    input:checked {
+        background-color: #7A5CFA;
+    }
+
+    input:focus{
+        outline-color: #7A5CFA;
+        outline-width: 1px;
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    min-width: 172px;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: 3px solid #7A5CFA;
+}
+
+
+.btn-primary{
+    background-color: #7A5CFA;
+    color: #fff;
+}
+
+.btn-secondary{
+    background-color: #fff;
+    outline: 1px solid #7A5CFA;
+    color: #7A5CFA;
+}
+

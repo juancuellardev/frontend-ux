@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cymetria</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#">
+        <div class="form-group">
+            <label for="nombre" class="label">Nombre Completo</label>
+            <input type="text" name="nombre" id="nombre" class="input-text" placeholder="Ingrese su nombre completo" required>
+        </div>
+        <div class="form-group">
+            <label for="email" class="label">Email</label>
+            <input type="email" name="email" id="email" class="input-text" placeholder="Ej: username@correo.co" required>
+        </div>
+        <p>¿Qué curso estás tomando en Cymetria?</p>
+        <div class="form-group radio-groups">
+            <div class="radio-group">
+                <input type="radio" name="curso" id="radio-curso-sql" value="SQL-SERVER">
+                <label for="radio-curso-sql">SQL-SERVER</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" name="curso" id="radio-curso-frontend" value="Frontend">
+                <label for="radio-curso-frontend">Frontend</label>
+            </div>
+            <div class="radio-group">
+                <input type="radio" name="curso" id="radio-curso-fullstack" value="FullStack">
+                <label for="radio-curso-fullstack">FullStack</label>
+            </div>
+        </div>
+        <p>¿Cuales lenguajes de programación te gustaría seguir aprendiendo?</p>
+        <div class="form-group checkbox-groups">
+            <div class="checkbox-group">
+                <input type="checkbox" name="checkbox-lenguajes" id="checkbox-lenguaje-python" value="Python">
+                <label for="checkbox-lenguaje-python">Python</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="checkbox-lenguajes" id="checkbox-lenguaje-javascript" value="Javascript">
+                <label for="checkbox-lenguaje-javascript">Javascript</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="checkbox-lenguajes" id="checkbox-lenguaje-.net" value=".Net">
+                <label for="checkbox-lenguaje-.net">.Net</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="checkbox-lenguajes" id="checkbox-lenguaje-nodejs" value="Nodejs">
+                <label for="checkbox-lenguaje-nodejs">Nodejs</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="checkbox-lenguajes" id="checkbox-lenguaje-php" value="PHP">
+                <label for="checkbox-lenguaje-php">PHP</label>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="reset" class="btn-secondary">Cancelar</button>
+            <button type="submit" class="btn-primary">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
