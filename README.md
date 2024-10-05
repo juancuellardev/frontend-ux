@@ -7,6 +7,12 @@ Este repositorio contiene los desafíos de un curso de Frontend con enfoque en U
 1. **[El clásico Lemon Pie](./01)**
 2. **[CURRICULUM VITAE DE BRUCE WAYNE](./02)**
 3. **[Duolingo Duplicado](./03)**
+4. **[Git Colaborativo](./04)**
+5. **[Flexbox](./05)**
+6. **[Media Querys](./06)**
+7. **[Portfolio Sketch](./07)**
+8. **[Formularios](./08)**
+9. **[Animaciones](./09)**
 
 ## Demo en línea
 
