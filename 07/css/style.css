@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
+header {
+    background-color: #6B4E71;
+    color: #fff;
+    text-align: left;
+    padding: 10px 30px;
+    margin: 0 auto;
+    display: block;
+    line-height: 40px;
+}
+
+
+header h1, header nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 20px auto 0px;
+}
+
+header nav {
+    margin: 0;
+    text-align: right;
+}
+
+header nav a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 90px 80px;
+    text-align: center;
+}
+
+.star-separator{
+    width: 200px;
+    margin: 20px 0;
+}
+
+section#me{
+    background-color: #C2B2B4;
+    color: #fff;
+}
+
+section#me img.avatar{
+    max-width: 240px;
+    min-width: 100px;
+    height: auto;
+}
+
+section h1 {
+    font-size: 32pt;
+    font-weight: 800;
+}
+
+section h2 {
+    font-size: 32pt;
+    font-weight: 800;
+}
+
+section#portfolio h2 {
+    color: #1A252F;
+}
+
+#portfolio-items {
+    text-align: center;
+}
+
+.portfolio-items .portfolio-item {
+    display: inline-block;
+    min-width: 200px;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio-items .portfolio-item img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.portfolio-items .portfolio-item h3 {
+    font-weight: 800;
+    color: #212529;
+}
+
+section#about{
+    background-color: #C2B2B4;
+    color: #fff;
+    text-align: center;
+}
+
+section#about p {
+    margin-bottom: 20px;
+}
+
+
+
+
+.btn-download{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #C2B2B4;
+    border: solid 1px #fff;
+    color: #fff;
+    border-radius: 5px;
+    vertical-align:top;
+    line-height: 24px;
+}
+
+.btn-download:hover {
+    background-color: #fff;
+    color: #C2B2B4;
+}
+
+.btn-download span{
+    vertical-align: middle;
+}
+
+
+.btn-download img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+    margin: 2px 10px 2px 0px;
+}
+
+.btn-download img.img-1{
+    display: inline-block;
+}
+.btn-download img.img-2{
+    display: none;
+}
+.btn-download:hover img.img-1{
+    display: none;
+}
+.btn-download:hover img.img-2{
+    display: inline-block;
+}
+
+footer {
+    background-color: #1A252F;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
