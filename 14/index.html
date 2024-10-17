@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="calculadora.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <fieldset>
+        <legend>Nivel I y II</legend>
+        <div id="operaciones">
+            <input type="number" id="input_1" placeholder="Valor A">
+            <input type="number" id="input_2" placeholder="Valor B">
+            <div class="buttons">
+                <button type="button" onclick="ejecutarOperacion('sumar')">Sumar</button>
+                <button type="button" onclick="ejecutarOperacion('restar')">Restar</button>
+                <button type="button" onclick="ejecutarOperacion('multiplicar')">Multiplicar</button>
+                <button type="button" onclick="ejecutarOperacion('dividir')">Dividir</button>
+            </div>
+            <h4>Resultado: <span></span></h4>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Nivel III</legend>
+        <div id="cuadradoDeUnNumero">
+            <h3>Cuadrado de un número</h3>
+            <input type="number" id="input_3" placeholder="Número">
+            <button type="button" onclick="calcularCuadradoDeUnNumero()">Calcular</button>
+            <h4>Resultado: <span></span></h4>
+        </div>
+        <div id="promedioDeTresNumeros">
+            <h3>Promedio de tres números</h3>
+            <input type="number" id="input_4" placeholder="Valor A">
+            <input type="number" id="input_5" placeholder="Valor B">
+            <input type="number" id="input_6" placeholder="Valor C">
+            <button type="button" onclick="calcularPromedioDeTresNumeros()">Calcular</button>
+            <h4>Resultado: <span></span></h4>
+        </div>
+        <div id="porcentajeDeUnNumero">
+            <h3>Porcentaje de un número</h3>
+            <input type="number" id="input_7" placeholder="Número">
+            <input type="number" id="input_8" placeholder="Porcentaje">
+            <button type="button" onclick="calcularPorcentajeDeUnNumero()">Calcular</button>
+            <h4>Resultado: <span></span></h4>
+        </div>
+        <div id="generadorDePorcentaje">
+            <h3>Porcentaje de un número</h3>
+            <input type="number" id="input_9" placeholder="Valor A">
+            <input type="number" id="input_10" placeholder="Valor B">
+            <button type="button" onclick="calcularGeneradorDePorcentaje()">Calcular</button>
+            <h4>Resultado: <span></span></h4>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Nivel IV</legend>
+        <div id="paridad">
+            <h3>Verificar Paridad</h3>
+            <input type="number" id="input_11" placeholder="Número">
+            <button type="button" onclick="calcularParidad()">Verificar</button>
+            <h4>Resultado: <span></span></h4>
+        </div>
+    </fieldset>
+</body>
+</html>
